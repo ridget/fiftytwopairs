@@ -32,7 +32,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: white;
   color: #333;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   line-height: 1.25;
   margin: 0;
   text-rendering: optimizeLegibility; }
@@ -132,7 +132,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em; }
 
 /* line 16, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/base/_forms.scss */
@@ -160,7 +160,7 @@ select[multiple=multiple] {
   border-radius: 3px;
   border: 1px solid #DDD;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em 0.5em;
@@ -263,29 +263,35 @@ input[type="submit"] {
   vertical-align: middle;
   white-space: nowrap; }
 
-/* line 2, /Users/ridget/.rvm/gems/ruby-2.1.5/gems/neat-1.6.0/app/assets/stylesheets/grid/_grid.scss */
-* {
+/* line 4, /Users/ridget/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+/* line 9, /Users/ridget/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
 
 /* line 1, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
 header {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  /* line 15, /Users/ridget/.rvm/gems/ruby-2.1.5/gems/bourbon-3.2.3/app/assets/stylesheets/addons/_clearfix.scss */
-  header:after {
+  /* line 9, /Users/ridget/.rvm/gems/ruby-2.2.0/gems/bourbon-4.1.1/app/assets/stylesheets/addons/_clearfix.scss */
+  header::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
   /* line 3, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
   header section {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, /Users/ridget/.rvm/gems/ruby-2.1.5/gems/neat-1.6.0/app/assets/stylesheets/grid/_span-columns.scss */
+    /* line 87, /Users/ridget/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
     header section:last-child {
       margin-right: 0; }
     /* line 5, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
@@ -297,7 +303,7 @@ header {
       margin-left: 17.05961%;
       font-size: 14em;
       line-height: 0.6em; }
-      /* line 38, /Users/ridget/.rvm/gems/ruby-2.1.5/gems/neat-1.6.0/app/assets/stylesheets/grid/_span-columns.scss */
+      /* line 87, /Users/ridget/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
       header section h1:last-child {
         margin-right: 0; }
 
@@ -306,31 +312,46 @@ section {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  padding: 5em 0 0 0;
-  font-size: 1.25em; }
-  /* line 15, /Users/ridget/.rvm/gems/ruby-2.1.5/gems/bourbon-3.2.3/app/assets/stylesheets/addons/_clearfix.scss */
-  section:after {
+  padding: 5em 0 0 0; }
+  /* line 9, /Users/ridget/.rvm/gems/ruby-2.2.0/gems/bourbon-4.1.1/app/assets/stylesheets/addons/_clearfix.scss */
+  section::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
   /* line 18, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
-  section div {
+  section div.alpha {
+    font-size: 1.25em;
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 57.35098%;
-    margin-left: 17.05961%; }
-    /* line 38, /Users/ridget/.rvm/gems/ruby-2.1.5/gems/neat-1.6.0/app/assets/stylesheets/grid/_span-columns.scss */
-    section div:last-child {
+    width: 74.41059%; }
+    /* line 87, /Users/ridget/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+    section div.alpha:last-child {
       margin-right: 0; }
     /* line 23, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
-    section div section {
+    section div.alpha section {
+      padding: 0; }
+  /* line 30, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
+  section div.beta {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    /* line 87, /Users/ridget/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+    section div.beta:last-child {
+      margin-right: 0; }
+    /* line 33, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
+    section div.beta section {
       padding: 0; }
 
-/* line 33, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
+/* line 41, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
+a {
+  color: #CC342D; }
+
+/* line 45, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
 .rubyRed {
   color: #CC342D; }
 
-/* line 38, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
+/* line 50, /Users/ridget/code/repositories/fiftytwopairs/source/stylesheets/partials/_layout.scss */
 .emberOrange {
   color: #f23818; }
