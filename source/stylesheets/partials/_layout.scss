@@ -15,21 +15,33 @@ header {
 section {
   @include outer-container;
   @include pad(5em 0 0 0);
-  div {
+  div.alpha {
+    font-size:
+    em(20);
     @include
-    span-columns(7);
-    @include
-    shift(2);
+    span-columns(9);
     section {
       @include
       pad(0);
 
     }
   }
-  font-size:
-  em(20);
+
+  div.beta {
+    @include
+    span-columns(3);
+    section {
+      @include
+      pad(0);
+
+    }
+  }
 }
 
+a {
+  color:
+  #CC342D;
+}
 .rubyRed{
   color:
   #CC342D;
