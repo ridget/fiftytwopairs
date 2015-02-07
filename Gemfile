@@ -13,5 +13,9 @@ gem 'neat'
 # Automate gh pages deploy
 gem 'middleman-gh-pages'
 
+# Add google analytics tracking
+gem "middleman-google-analytics"
+
+
 # For feed.xml.builder
 gem "builder", "~> 3.0"
