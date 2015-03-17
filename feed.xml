@@ -5,10 +5,59 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-06T18:17:00+10:00</updated>
+  <updated>2015-03-17T20:00:00+10:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>pairing-tools-and-where-to-find-them</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/17/pairing-tools-and-where-to-find-them.html"/>
+    <id>http://blog.url.com/2015/03/17/pairing-tools-and-where-to-find-them.html</id>
+    <published>2015-03-17T20:00:00+10:00</published>
+    <updated>2015-03-17T20:01:34+10:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2 id="current-status-9-down-43-to-go"&gt;Current Status: 9 down, 43 to go.&lt;/h2&gt;
+
+&lt;p&gt;Over the past weeks, I've been experimenting with a number of pairing tools, I've been trying to wrestle with the great tragedy that is Australian upload speeds when pairing with developers from all over the world. &lt;/p&gt;
+
+&lt;p&gt;The good news, is that there are plenty of tools out there, but which one suits you? &lt;/p&gt;
+
+&lt;h2 id="screenherohttpscreenherocom"&gt;&lt;a href="http://screenhero.com"&gt;Screenhero&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Screenhero is a great screen-sharing tool, and will soon come bundled with Slack to enable users to screenshare from their chat environment. &lt;/p&gt;
+
+&lt;p&gt;Support for dual mouse cursors, means its easy to collaborate on the same bit of code and communicate where that missing &lt;code&gt;.&lt;/code&gt; lies. The audio and screen visibility provided you have good upload and download speeds is pretty excellent. &lt;/p&gt;
+
+&lt;p&gt;As this is a remote screensharing tool, it also enables you to pair on more visual aspects of your application.&lt;/p&gt;
+
+&lt;p&gt;Currently, this service is free, whilst it's being integrated with Slack, but new user registrations are closed, however if you can snag an invitation from an existing user, you can continue to use it free of charge.&lt;/p&gt;
+
+&lt;h2 id="floobitshttpfloobitscom"&gt;&lt;a href="http://floobits.com"&gt;Floobits&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;I've only stumbled on floobits rather recently, but if you're looking for a tmux like experience for minimal latency and collaboration. &lt;/p&gt;
+
+&lt;p&gt;It enables users to pair via workspaces, which will enable synching of files between the developers working on them.&lt;/p&gt;
+
+&lt;p&gt;Where floobits really shines, besides the low latency pairing functionality, is its support for multiple editors. This means you can each bring your own keybindings to the party, and continue to be productive. &lt;/p&gt;
+
+&lt;p&gt;If you don't use an editor with a floobits extension, there is a web interface available, which is reasonably robust.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, it's monthly cost can be prohibitive, but if you're not a vim user and are working on open source projects, this is an exceptionally good tool.&lt;/p&gt;
+
+&lt;h2 id="tmuxtmatehttptmateio--vim"&gt;Tmux/&lt;a href="http://tmate.io"&gt;Tmate&lt;/a&gt; + Vim&lt;/h2&gt;
+
+&lt;p&gt;This is the ultimate low latency way to pair. Tmux is a fantastic tool in and of itself, but combined with Vim, makes it easy to remote pair. No workspaces means you're editing your pairs code, which removes the guesswork out of where stuff lies. &lt;/p&gt;
+
+&lt;p&gt;Utilising tmate, a fork of tmux, it becomes incredibly simple to connect to a shared tmux session, whilst still being able to utilise your &lt;code&gt;tmux.conf&lt;/code&gt; file. &lt;/p&gt;
+
+&lt;p&gt;Unfortunately, not everyone is a Vim user, and when pairing you are ultimately bound to your pairs &lt;code&gt;.vimrc&lt;/code&gt; and &lt;code&gt;tmux.conf&lt;/code&gt; configuration settings. However, this can also be a particularly useful way of picking up new vim plugins or more comfortable key-bindings.&lt;/p&gt;
+
+&lt;p&gt;Personally as I'm becoming more of a fan of the Vim workflow, im leaning towards Tmux and Vim, but Floobits offers a great alternative.&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Three down, forty nine to go</title>
     <link rel="alternate" href="http://blog.url.com/2015/02/06/three-down.html"/>
